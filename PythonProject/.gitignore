@@ -13,3 +13,4 @@ musics/
 *.png
 *.spec
 *.sh
+/100_days_of_python/.env
