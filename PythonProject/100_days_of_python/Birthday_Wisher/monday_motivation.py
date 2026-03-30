@@ -4,8 +4,8 @@ from datetime import datetime as dt
 #----------------------constants----------------------------------#
 my_email = "sumitha.manoharan@zohomail.in"
 gmail_email = "technocrat.parthiban@zohomail.in"
-# password = "aoeu kosk kdsq nbai"
-zoho_password="7sb2uDCFvT15"
+load_dotenv()
+app.config['SECRET_KEY'] = os.environ.get('ZOHO_PASSWORD')
 
 #----------------------------QOD-----------------------------------#
 
