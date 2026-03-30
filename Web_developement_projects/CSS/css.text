@@ -1,0 +1,11 @@
+three ways to call a css in a html file
+
+INLINE:
+<tag style="css" />
+
+INTERNAL:
+<style>css</style>
+
+
+EXTERNAL:
+<link href="style.css"/>

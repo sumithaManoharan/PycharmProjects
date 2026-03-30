@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+
+<html xmlns="http://www.w3.org/1999/html">
+	<head>
+		<title>Login</title>
+		{{ bootstrap.load_css() }}
+	</head>
+	<body>
+        <div class="container">
+		<h1>Login</h1>
+        <!-- This is where our form will go. -->
+		<form method="POST">
+			{{ form.csrf_token }}
+			<p>
+			{{ form.name.label }} <br> {{ form.name(class="form-control") }}
+			{% for error in form.name.errors %}
+			<span style="color:red">{{err}}</span>
+			{% endfor %}
+			</p>
+			<p>
+			{{ form.password.label }} <br> {{ form.password(class="form-control") }}
+			{% for error in form.password.errors %}
+			<span style="color:red">{{err}}</span>
+			{% endfor %}
+			</p>
+			{{ form.submit() }}
+		</form>
+        </div>
+	{{ bootstrap.load_js() }}
+	</body>
+</html>

@@ -1,0 +1,15 @@
+venv/
+.idea/
+__pycache__/
+*.pyc
+instance/
+*.db
+*.pdf
+/.venv/
+dist/
+build/
+*.json
+musics/
+*.png
+*.spec
+*.sh

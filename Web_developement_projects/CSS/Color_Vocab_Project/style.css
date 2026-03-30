@@ -1,0 +1,21 @@
+ol {
+  margin-left: -40px;
+  margin-top: -20px;
+  list-style-position: inside;
+}
+
+/* Write your CSS below, don't change the rules above. */
+.color-title{
+    font-weight:normal
+}
+#red{color:red}
+#blue{color:blue}
+#orange{color:orange}
+#green{color:green}
+#yellow{color:yellow}
+
+img{
+    width: 200px;
+    height:200px;
+}
+
