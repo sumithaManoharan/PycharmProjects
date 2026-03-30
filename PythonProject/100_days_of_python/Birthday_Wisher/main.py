@@ -2,9 +2,11 @@
 import smtplib,random,pandas as pd,os
 from email.message import EmailMessage
 from datetime import datetime as dt
+from dotenv import load_dotenv
 
 my_email = "sumitha.manoharan@zohomail.in"
-zoho_password="7sb2uDCFvT15"
+load_dotenv()
+app.config['SECRET_KEY'] = os.environ.get('ZOHO_PASSWORD')
 bdays = pd.read_csv('birthdays.csv')
 
 
