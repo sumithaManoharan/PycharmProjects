@@ -1,0 +1,17 @@
+venv/
+.idea/
+__pycache__/
+*.pyc
+instance/
+*.db
+.venv/
+*.jpg
+*.png
+*.svg
+*.pdf
+*.csv
+/chrome_profile
+/Web_scraping/Selenium/chrome_profile/
+/Web_scraping/Selenium/Web_developement_projects/Web_scraping/Selenium/chrome_profile/
+*.txt
+*.venv/
