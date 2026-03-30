@@ -2,10 +2,13 @@ import requests as rt
 from datetime import datetime as dt, timedelta
 from twilio.rest import Client
 import time
+import os
+from dotenv import load_dotenv
 
-# api_key = "d59903e1ef0aaf024fcd277c7487ff69"
-account_sid = "ACa80a8e534de084fc39325724f09d2aac"
-auth_token = "174334a00a3e78f8991c5be372182009"
+load_dotenv()
+
+app.config['SECRET_KEY'] = os.environ.get('TWILIO_ACCOUNT_SID')
+app.config['SECRET_KEY'] = os.environ.get('TWILIO_AUTH_TOKEN')
 STOCK = "TSLA"
 COMPANY_NAME = "Tesla Inc"
 API_KEY = "20JCEJOBVV71UJJW"
