@@ -5,6 +5,16 @@
       <sourceFolder url="file://$MODULE_DIR$/Web_developement_projects/authentication_flask/.venv/lib/python3.12/site-packages" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Web_developement_projects/capstone_blog_solution/.venv/lib/python3.12/site-packages" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Web_developement_projects/top_10_movies/.venv/lib/python3.12/site-packages" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Web_developement_projects/website_deployment/venv/lib/python3.12/site-packages" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/PythonProject/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/PythonProject/100_days_of_python/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/Web_developement_projects/RESTFul api/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/Web_developement_projects/authentication_flask/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/Web_developement_projects/capstone_blog/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/Web_developement_projects/capstone_blog_solution/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/Web_developement_projects/coffee_website/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/Web_developement_projects/library-project/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/Web_developement_projects/top_10_movies/.venv" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.12" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
